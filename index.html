@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Тест на определение типа темперамента</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>Тест на определение типа темперамента</h1>
+<div class="container">
+    <form id="temperament-test">
+        <div class="question">
+            <label>1. Я обычно:</label>
+            <ul>
+                <li><input type="radio" name="q1" value="A"> Ориентируюсь на достижение результатов и быстрое решение задач.</li>
+                <li><input type="radio" name="q1" value="B"> Легко нахожу общий язык с разными людьми и люблю быть в центре внимания.</li>
+                <li><input type="radio" name="q1" value="C"> Предпочитаю стабильность и предсказуемость в работе и отношениях.</li>
+                <li><input type="radio" name="q1" value="D"> Внимателен к деталям и стараюсь всё делать правильно и точно.</li>
+            </ul>
+        </div>
+        <div class="question">
+            <label>2. В общении с другими я:</label>
+            <ul>
+                <li><input type="radio" name="q2" value="A"> Прямолинеен и не боюсь высказывать своё мнение.</li>
+                <li><input type="radio" name="q2" value="B"> Убедителен и умею вдохновлять других своими идеями.</li>
+                <li><input type="radio" name="q2" value="C"> Поддерживаю гармонию и избегаю конфликтов.</li>
+                <li><input type="radio" name="q2" value="D"> Задаю много вопросов и стремлюсь понять суть вещей.</li>
+            </ul>
+        </div>
+        <div class="question">
+            <label>3. В работе я:</label>
+            <ul>
+                <li><input type="radio" name="q3" value="A"> Беру на себя ответственность и люблю контролировать процесс.</li>
+                <li><input type="radio" name="q3" value="B"> Предпочитаю работать в команде и налаживать отношения с коллегами.</li>
+                <li><input type="radio" name="q3" value="C"> Выполняю задачи методично и последовательно.</li>
+                <li><input type="radio" name="q3" value="D"> Стремлюсь к совершенствованию и улучшению процессов.</li>
+            </ul>
+        </div>
+        <div class="question">
+            <label>4. В стрессовых ситуациях я:</label>
+            <ul>
+                <li><input type="radio" name="q4" value="A"> Сосредотачиваюсь на решении проблемы и быстро принимаю решения.</li>
+                <li><input type="radio" name="q4" value="B"> Стараюсь сохранять позитивный настрой и поддерживать окружающих.</li>
+                <li><input type="radio" name="q4" value="C"> Сохраняю спокойствие и ищу компромиссные решения.</li>
+                <li><input type="radio" name="q4" value="D"> Анализирую ситуацию и ищу способы избежать ошибок в будущем.</li>
+            </ul>
+        </div>
+        <div class="question">
+            <label>5. Меня мотивирует:</label>
+            <ul>
+                <li><input type="radio" name="q5" value="A"> Возможность достичь высоких результатов и получить признание.</li>
+                <li><input type="radio" name="q5" value="B"> Возможность влиять на других и быть частью чего-то большого.</li>
+                <li><input type="radio" name="q5" value="C"> Возможность работать в стабильной и поддерживающей среде.</li>
+                <li><input type="radio" name="q5" value="D"> Возможность развивать знания и приобретать новые навыки.</li>
+            </ul>
+        </div>
+        <div class="question">
+            <label>6. Я обычно:</label>
+            <ul>
+                <li><input type="radio" name="q6" value="A"> Быстро адаптируюсь к изменениям и люблю новые вызовы.</li>
+                <li><input type="radio" name="q6" value="B"> Легко завожу новых знакомых и не стесняюсь выступать публично.</li>
+                <li><input type="radio" name="q6" value="C"> Ценю проверенные методы и предпочитаю постоянство.</li>
+                <li><input type="radio" name="q6" value="D"> Обращаю внимание на детали и стремлюсь к точности в работе.</li>
+            </ul>
+        </div>
+        <div class="question">
+            <label>7. В команде я:</label>
+            <ul>
+                <li><input type="radio" name="q7" value="A"> Берусь за руководство и веду других к целям.</li>
+                <li><input type="radio" name="q7" value="B"> Стараюсь создавать позитивную атмосферу и поддерживать коллег.</li>
+                <li><input type="radio" name="q7" value="C"> Выполняю свою работу качественно и помогаю другим при необходимости.</li>
+                <li><input type="radio" name="q7" value="D"> Анализирую проблемы и предлагаю решения на основе фактов и данных.</li>
+            </ul>
+        </div>
+        <div class="question">
+            <label>8. В конфликтных ситуациях я:</label>
+            <ul>
+                <li><input type="radio" name="q8" value="A"> Активно защищаю свою позицию и стремлюсь победить.</li>
+                <li><input type="radio" name="q8" value="B"> Ищу компромиссы и пытаюсь уговорить других принять мою точку зрения.</li>
+                <li><input type="radio" name="q8" value="C"> Стараюсь избегать конфликтов и поддерживаю добрые отношения.</li>
+                <li><input type="radio" name="q8" value="D"> Анализирую причину конфликта и предлагаю разумные решения.</li>
+            </ul>
+        </div>
+        <div class="question">
+            <label>9. Я ценю:</label>
+            <ul>
+                <li><input type="radio" name="q9" value="A"> Независимость и возможность самостоятельно принимать решения.</li>
+                <li><input type="radio" name="q9" value="B"> Общение и возможность делиться идеями с окружающими.</li>
+                <li><input type="radio" name="q9" value="C"> Постоянство и способность работать в предсказуемых условиях.</li>
+                <li><input type="radio" name="q9" value="D"> Знание и стремление постоянно учиться чему-то новому.</li>
+            </ul>
+        </div>
+        <div class="question">
+            <label>10. Меня раздражает:</label>
+            <ul>
+                <li><input type="radio" name="q10" value="A"> Некомпетентность и низкая скорость реакции окружающих.</li>
+                <li><input type="radio" name="q10" value="B"> Негативная обстановка и конфликты среди сотрудников.</li>
+                <li><input type="radio" name="q10" value="C"> Частые изменения и неопределённость.</li>
+                <li><input type="radio" name="q10" value="D"> Несоблюдение установленных норм и беспорядок.</li>
+            </ul>
+        </div>
+        <div class="question">
+            <label>11. Я стремлюсь:</label>
+            <ul>
+                <li><input type="radio" name="q11" value="A"> Достичь больших успехов и стать лучшим в своём деле.</li>
+                <li><input type="radio" name="q11" value="B"> Нравиться окружающим и иметь популярность.</li>
+                <li><input type="radio" name="q11" value="C"> Помогать другим и поддерживать мирные отношения.</li>
+                <li><input type="radio" name="q11" value="D"> Повышать квалификацию и углубляться в предмет.</li>
+            </ul>
+        </div>
+        <div class="question">
+            <label>12. В свободное время я:</label>
+            <ul>
+                <li><input type="radio" name="q12" value="A"> Активно занимаюсь спортом и часто путешествую.</li>
+                <li><input type="radio" name="q12" value="B"> Общаюсь с друзьями и участвую в разных мероприятиях.</li>
+                <li><input type="radio" name="q12" value="C"> Проводю время дома с семьёй и занимаюсь любимым делом.</li>
+                <li><input type="radio" name="q12" value="D"> Читают книги и познаю что-то новое.</li>
+            </ul>
+        </div>
+        <div class="question">
+            <label>13. Я представляю себя как человека, который скорее:</label>
+            <ul>
+                <li><input type="radio" name="q13" value="A"> Прямолинейный, упорный и целеустремлённый.</li>
+                <li><input type="radio" name="q13" value="B"> Дружелюбный, открытый и весёлый.</li>
+                <li><input type="radio" name="q13" value="C"> Тихий, спокойный и надёжный.</li>
+                <li><input type="radio" name="q13" value="D"> Организационно точный и дисциплинированный.</li>
+            </ul>
+        </div>
+        <div class="question">
+            <label>14. Друзья говорят обо мне как о человеке:</label>
+            <ul>
+                <li><input type="radio" name="q14" value="A"> Кто уверенно движется к своим целям.</li>
+                <li><input type="radio" name="q14" value="B"> Всегда способном завести разговор и поднять настроение.</li>
+                <li><input type="radio" name="q14" value="C"> Который всегда придёт на помощь и является хорошим товарищем.</li>
+                <li><input type="radio" name="q14" value="D"> Надёжном и умном специалисте, дающем полезные советы.</li>
+            </ul>
+        </div>
+        <div class="question">
+            <label>15. Если бы я был персонажем фильма, то скорее был бы:</label>
+            <ul>
+                <li><input type="radio" name="q15" value="A"> Героем, решающим самые трудные задачи.</li>
+                <li><input type="radio" name="q15" value="B"> Весёлым компаньоном, который помогает протагонисту.</li>
+                <li><input type="radio" name="q15" value="C"> Верным помощником, готовым оказать любую поддержку.</li>
+                <li><input type="radio" name="q15" value="D"> Учёным, исследующим загадочные явления.</li>
+            </ul>
+        </div>
+        <div class="question">
+            <label>16. Мне проще всего:</label>
+            <ul>
+                <li><input type="radio" name="q16" value="A"> Начинать собственный проект и руководить группой.</li>
+                <li><input type="radio" name="q16" value="B"> Привлекать публику интересными выступлениями и презентациями.</li>
+                <li><input type="radio" name="q16" value="C"> Настраивать рабочие процессы и обеспечивать порядок.</li>
+                <li><input type="radio" name="q16" value="D"> Готовить подробный отчёт или писать научный материал.</li>
+            </ul>
+        </div>
+        <div class="question">
+            <label>17. Критикуя меня, я реагирую следующим образом:</label>
+            <ul>
+                <li><input type="radio" name="q17" value="A"> Чувствую раздражение и агрессию.</li>
+                <li><input type="radio" name="q17" value="B"> Игнорирую критику и продолжаю действовать так же.</li>
+                <li><input type="radio" name="q17" value="C"> Анализирую критику и извлекаю пользу.</li>
+                <li><input type="radio" name="q17" value="D"> Глубоко переживаю и расстраиваюсь.</li>
+            </ul>
+        </div>
+        <div class="question">
+            <label>18. Планируя день, я:</label>
+            <ul>
+                <li><input type="radio" name="q18" value="A"> Составляю четкий график с важными делами впереди.</li>
+                <li><input type="radio" name="q18" value="B"> Включаю встречи с людьми и оставляю пространство для неожиданностей.</li>
+                <li><input type="radio" name="q18" value="C"> Придерживаюсь устоявшегося графика, чтобы предотвратить хаос.</li>
+                <li><input type="radio" name="q18" value="D"> Просматриваю каждую деталь, чтобы убедиться, что ничего не пропущено.</li>
+            </ul>
+        </div>
+        <div class="question">
+            <label>19. Во время переговоров я:</label>
+            <ul>
+                <li><input type="radio" name="q19" value="A"> Четко заявляю свою позицию и настаиваю на выгодных условиях.</li>
+                <li><input type="radio" name="q19" value="B"> Использую шутки и личные качества, чтобы привлечь доверие собеседников.</li>
+                <li><input type="radio" name="q19" value="C"> Предлагаю варианты, выгодные обеим сторонам.</li>
+                <li><input type="radio" name="q19" value="D"> Аргументирую свою позицию фактами и доказательствами.</li>
+            </ul>
+        </div>
+        <div class="question">
+            <label>20. Получая обратную связь, я:</label>
+            <ul>
+                <li><input type="radio" name="q20" value="A"> Реализую полученные рекомендации, чтобы улучшить результаты.</li>
+                <li><input type="radio" name="q20" value="B"> Внимательно слушаю и работаю над улучшением взаимоотношений.</li>
+                <li><input type="radio" name="q20" value="C"> Принимаю критически важные отзывы спокойно и сбалансированно.</li>
+                <li><input type="radio" name="q20" value="D"> Внимательно анализирую каждый аспект критики, чтобы избежать будущих проблем.</li>
+            </ul>
+        </div>
+        <div class="question">
+            <label>21. Работая над творческой задачей, я:</label>
+            <ul>
+                <li><input type="radio" name="q21" value="A"> Веду команду и ставлю сроки исполнения.</li>
+                <li><input type="radio" name="q21" value="B"> Генералю идеи и вовлекаю остальных членов команды.</li>
+                <li><input type="radio" name="q21" value="C"> Выполняю задания стабильно и осторожно вносим поправки.</li>
+                <li><input type="radio" name="q21" value="D"> Добиваюсь высокого уровня качества и провожу тщательную проверку деталей.</li>
+            </ul>
+        </div>
+        <div class="question">
+            <label>22. Сталкиваясь с неудачами, я:</label>
+            <ul>
+                <li><input type="radio" name="q22" value="A"> Быстро определяю проблему и исправляюсь.</li>
+                <li><input type="radio" name="q22" value="B"> Делюсь переживаниями с близкими и прошу совета.</li>
+                <li><input type="radio" name="q22" value="C"> Успокаиваюсь и медленно восстанавливаю уверенность.</li>
+                <li><input type="radio" name="q22" value="D"> Анализирую опыт и долго думаю, чтобы избежать подобного снова.</li>
+            </ul>
+        </div>
+        <div class="question">
+            <label>23. Когда учусь чему-то новому, я:</label>
+            <ul>
+                <li><input type="radio" name="q23" value="A"> Хочу сразу применить знания на практике.</li>
+                <li><input type="radio" name="q23" value="B"> Люблю общаться и обсуждать с другими.</li>
+                <li><input type="radio" name="q23" value="C"> Учусь постепенно, осваивая тему шаг за шагом.</li>
+                <li><input type="radio" name="q23" value="D"> Углублённо погружаюсь в изучение теории.</li>
+            </ul>
+        </div>
+        <div class="question">
+            <label>24. На вечеринке я:</label>
+            <ul>
+                <li><input type="radio" name="q24" value="A"> Захватываю внимание гостей и начинаю активность.</li>
+                <li><input type="radio" name="q24" value="B"> Легко перемещаюсь между компаниями и знакомлюсь с новыми людьми.</li>
+                <li><input type="radio" name="q24" value="C"> Предпочитаю тихие разговоры и небольшую компанию близких.</li>
+                <li><input type="radio" name="q24" value="D"> Больше наблюдаю и анализирую происходящее вокруг.</li>
+            </ul>
+        </div>
+        <div class="question">
+            <label>25. В долгосрочном проекте я:</label>
+            <ul>
+                <li><input type="radio" name="q25" value="A"> Ставлю большие цели и контролирую выполнение.</li>
+                <li><input type="radio" name="q25" value="B"> Увлекаю команду идеей и создаю позитивную обстановку.</li>
+                <li><input type="radio" name="q25" value="C"> Последовательно выполняю шаги и обеспечиваю устойчивость процесса.</li>
+                <li><input type="radio" name="q25" value="D"> Готовлю подробный план и следую ему пунктуально.</li>
+            </ul>
+        </div>
+        <button type="submit">Узнать мой результат!</button>
+    </form>
+    <div id="result-container" class="result"></div>
+</div>
+<script>
+// Функция обработки формы
+const testForm = document.getElementById("temperament-test");
+const resultContainer = document.getElementById("result-container");
+
+testForm.addEventListener("submit", e => {
+    e.preventDefault(); // Останавливаем отправку формы
+    const answers = []; // Массив для хранения ответов
+    const questions = [
+        "q1", "q2", "q3", "q4", "q5",
+        "q6", "q7", "q8", "q9", "q10",
+        "q11", "q12", "q13", "q14", "q15",
+        "q16", "q17", "q18", "q19", "q20",
+        "q21", "q22", "q23", "q24", "q25"
+    ];
+
+    // Сбор ответов пользователя
+    questions.forEach(questionName => {
+        const answerInput = document.querySelector(`input[name="${questionName}"]:checked`);
+        if (answerInput) {
+            answers.push(answerInput.value);
+        }
+    });
+
+    // Объект для подсчета голосов
+    const scores = { A: 0, B: 0, C: 0, D: 0 };
+
+    // Подсчет количества ответов по каждой категории
+    answers.forEach(answer => {
+        scores[answer]++;
+    });
+
+    // Определение наиболее популярного типа темперамента
+    let dominantTrait = "";
+    let maxScore = 0;
+    for (let trait in scores) {
+        if (scores[trait] > maxScore) {
+            dominantTrait = trait;
+            maxScore = scores[trait];
+        }
+    }
+
+    // Формирование вывода результата
+    let resultMessage = "";
+    switch (dominantTrait) {
+        case "A":
+            resultMessage = `
+                Ваш результат: ХОЛЕРИК.<br>
+                Вы энергичный, целеустремлённый, напористый, инициативный человек.<br>
+                Подходит профессиям, связанным с управлением, решением сложных ситуаций и быстротой принятия решений.<br>
+                Например: управление бизнесом, спортивные достижения, кризис-менеджмент.`;
+            break;
+        case "B":
+            resultMessage = `
+                Ваш результат: САНГВИНИК.<br>
+                Вы коммуникабельный, радостный, быстрый и уверенный в себе.<br>
+                Лучше проявляете себя там, где важны контакты и умение убеждать.<br>
+                Например: PR, продажа товаров и услуг, путешествия и обучение.`;
+            break;
+        case "C":
+            resultMessage = `
+                Ваш результат: ФЛЕГМАТИК.<br>
+                Вы спокойный, выдержанный, осторожный и внимательный.<br>
+                Прекрасно справляетесь с работой, требующей последовательности и дисциплины.<br>
+                Например: программирование, бухгалтерия, финансовая сфера.`;
+            break;
+        case "D":
+            resultMessage = `
+                Ваш результат: МЕЛАНХОЛИК.<br>
+                Вы чувственный, интровертированный, аккуратный и наблюдательный.<br>
+                Отличаетесь вниманием к мелочам и склонностью к творчеству.<br>
+                Например: творчество, наука, литературная деятельность.`;
+            break;
+    }
+
+    // Выводим результат пользователю
+    resultContainer.innerHTML = `<strong>${resultMessage}</strong>`;
+});
+</script>
+</body>
+</html>
